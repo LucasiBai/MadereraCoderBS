@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Título para Browser -->
+	<title>Wood S.A.</title>
+	<!-- Ícono Browser -->
+	<link rel="icon" href="Assets/Img/iso_alternative.ico">
+	<!-- Css Linkeado -->
+	<link rel="stylesheet" href="Css/style.css">
+	<!-- Link íconos -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<!-- Fuente -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+	<!-- Animaciones -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Link a Bootstrap Css-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head> 
+<body class="container-fluid h-100 d-flex flex-column">
+	<header class="row h-15">
+		<!-- Barra de navegación -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-secondary col-12 col-lg-12 ">
+			<!-- Logo del header -->
+			<div class="navbar-brand ml-4">
+				<a href="#"><img src="Assets/Img/iso.png" alt="logo" class="iso"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav nav__items mr-5">
+				    <li class="nav-item active">
+				    <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="Views/productos.html">Productos</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="Views/nosotros.html">Nosotros</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="Views/contacto.html">Contacto</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="Views/carrito.html">Carrito<i class="fas fa-cart-plus"></i></a>
+				    </li>
+				</ul>
+			</div>
+		</nav>
+	</header> 
+	<!-- Fin del header -->
+	<!-- Comienzo del contenido -->
+	<main class="row flex-grow-1 index__main d-flex flex-row flex-lg-row-reverse flex-md-row-reverse">
+		<!-- Texto Inicio -->
+		<div class="col-12 col-lg-6 col-md-6 align-middle d-flex justify-content-center flex-column align-items-center align-items-lg-start align-items-md-start mt-5 pt-3" data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="1100">
+			<!-- Logo -->
+			<div class="main__section--isoh1 d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-start">
+				<img src="Assets/Img/iso_logo.png" alt="logowood" class="main__iso">
+				<h1 align="center" class="text__tittle card__text--font card__article--position font-weight-bold">DISEÑOS<br>A MEDIDA</h1>
+			</div>
+			<div>	
+				<p class="text__description card__text--font card__article--position">Fabricamos y diseñamos piezas únicas para su hogar, con una excelente calidad que garantizan una vida útil prolongada.</p>
+				<!-- Botón para ir a los productos -->
+				<button class="button button__size mb-5" type="button" onclick="window.open('Views/productos.html')">Ver Productos</button>
+			</div>
+		</div>
+		<!-- Imagen de Inicio -->
+		<section class="col-12 col-lg-6 col-md-6 d-flex justify-content-end align-items-center mb-5 p-5" data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="1100">
+			<img src="Assets/Img/mueble1.jpg" alt="mueble_muestra" class="card card__image rounded-lg border-0">
+		</section>
+	</main>
+	<!-- Comienzo del footer -->
+	<footer class="row h-17">
+		<!-- Footer Logo -->
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<a href="#"><img src="Assets/Img/iso.png" alt="logo" class="iso"></a>
+		</div>
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<!-- Métodos de contacto -->
+			<h4 class="foo__font">Redes Sociales</h4>
+			<ul class="foo__redes--items">
+				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
+				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
+				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
+			</ul>
+		</div>
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<h4><a href="Views/contacto.html" class="foo__font">Contacto</a></h4>
+			<ul class="foo__redes--items">
+				<li class="foo__font mt-3"><img src="https://icongr.am/entypo/phone.svg?size=17&color=f6f3ee" alt="phoneicon"> +54 1234567</li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Js Animaciones -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	<!-- Link Bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

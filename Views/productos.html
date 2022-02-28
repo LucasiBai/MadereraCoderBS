@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Título para Browser -->
+	<title>Wood S.A.</title>
+	<!-- Ícono Browser -->
+	<link rel="icon" href="../Assets/Img/iso_alternative.ico">
+	<!-- Css Linkeado -->
+	<link rel="stylesheet" href="../Css/style.css">
+	<!-- Link íconos -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<!-- Fuente -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- Link a Bootstrap Css-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body class="container-fluid h-100">
+	<header class="row h-15">
+		<!-- Barra de navegación -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-secondary col-12 col-lg-12 nav__flex">
+			<!-- Logo del header -->
+			<div class="navbar-brand ml-4">
+				<a href="../index.html"><img src="../Assets/Img/iso.png" alt="logo" class="iso__reducido"></a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+				<ul class="navbar-nav nav__items mr-5">
+				    <li class="nav-item active">
+				    <a class="nav-link text-light" href="../index.html">Home <span class="sr-only">(current)</span></a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="#">Productos</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="nosotros.html">Nosotros</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="contacto.html">Contacto</a>
+				    </li>
+				    <li class="nav-item">
+				    <a class="nav-link text-light" href="carrito.html">Carrito<i class="fas fa-cart-plus"></i></a>
+				    </li>
+				</ul>
+			</div>
+		</nav>
+	</header> 
+	<main class="row container-fluid m-0 p-0">
+		<!-- Título -->
+		<section class="col-12 m-0 p-0">
+			<article class="tittle__productos d-flex flex-column justify-content-end align-items-center">
+				<h3 class="text__h3">Conocé</h3>
+				<h1 class="text__h1">Nuestros Productos</h1>
+			</article>
+			<div class="row">
+				<!-- Botón categorias -->
+				<div class="col-12 col-lg-6 col-md-6">
+					<button type="button button__categorías" class="button button__categorías"j><img src="https://icongr.am/entypo/menu.svg?size=20&color=555b53" alt="menuicon">Categorías</button>
+				</div>
+				<!-- Botón Ordenar por -->
+				<div class="col-12 col-lg-6 col-md-6 d-flex justify-content-start justify-content-md-end justify-content-lg-end">
+					<select class="button button__ordenarpor">
+						<option value="maM" >Precio Ascendente</option>
+						<option value="Mam" >Precio Descendente</option>
+						<option value="destacados" >Destacados</option>
+					</select>
+				</div>
+			</div>
+			<!-- Artículos -->
+			<div class="row articulos mb-5">
+				<article data-aos="zoom-in-up" class="articulos articulos__cajonera col-12 col-lg-4 col-md-4 m-0 mb-3 d-flex flex-column justify-content-center align-items-center">
+					<img src="../Assets/Img/cajonera1.jpg" class="articulos__img">
+					<h3 class="articulos__nombre mt-3">Cajonera</h3>
+					<h3 class="articulos__clasificacion">Escritorios</h3>
+					<h3 class="articulos__precio">$34.000 - $50.000</h3>
+				</article>
+				<article data-aos="zoom-in-up" class="articulos articulos__escritorio col-12 col-lg-4 col-md-4 m-0 mb-3 d-flex flex-column justify-content-center align-items-center">
+					<img src="../Assets/Img/mueble5.jpg" class="articulos__img">
+					<h3 class="articulos__nombre mt-3">Escritorio Gamer</h3>
+					<h3 class="articulos__clasificacion">Escritorios</h3>
+					<h3 class="articulos__precio">$75.000</h3>
+				</article>
+				<article data-aos="zoom-in-up" class="articulos articulos__estanteria col-12 col-lg-4 col-md-4 m-0 mb-3 d-flex flex-column justify-content-center align-items-center">
+					<img src="../Assets/Img/mueble6.jpeg" class="articulos__img">
+					<h3 class="articulos__nombre mt-3">Estantería</h3>
+					<h3 class="articulos__clasificacion">Estanterías</h3>
+					<h3 class="articulos__precio">$55.200</h3>
+				</article>
+			</div>
+		</section>
+	</main>
+	<footer class="row h-17">
+		<!-- Footer Logo -->
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<a href="../index.html"><img src="../Assets/Img/iso.png" alt="logo" class="iso"></a>
+		</div>
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<!-- Métodos de contacto -->
+			<h4 class="foo__font">Redes Sociales</h4>
+			<ul class="foo__redes--items">
+				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
+				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
+				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
+			</ul>
+		</div>
+		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
+			<h4><a href="../Views/contacto.html" class="foo__font">Contacto</a></h4>
+			<ul class="foo__redes--items">
+				<li class="foo__font mt-3"><img src="https://icongr.am/entypo/phone.svg?size=17&color=f6f3ee" alt="phoneicon"> +54 1234567</li>
+			</ul>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+	<!-- Link Bootstrap js -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

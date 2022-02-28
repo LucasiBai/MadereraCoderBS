@@ -1,0 +1,149 @@
+/*	color: #F6F3EE;*/
+/*Css Generales*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: #fcfaf5;
+}
+footer{
+	background-color: #3b403a;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.card__image{
+	width: 616px;
+	height: auto;
+}
+.iso{
+	width: 80px;
+}
+.iso__reducido{
+	width: 65px;
+	height: auto;
+}
+.main__iso{
+	width: 170px;
+}
+.index__main{
+	background-image: url(../Assets/Img/backgroundIndex.png);
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 77%;
+}
+.text__tittle{
+	grid-area: h1;
+	color: #F6F3EE;
+	font-size: 3.2rem;
+}
+.text__description{
+	grid-area: parrafo;
+    color: #F6F3EE;
+    width: 450px;
+    margin: 1rem;
+    text-align: justify;
+}
+.foo__font{
+	color: #F6F3EE;
+}
+.button{
+	margin-top: 1rem;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 8px;
+	border: none;
+	background-color: #ebe8e4;
+}
+.button:hover {
+    background-color: #555B53;
+    color: white;
+}
+.button__size{
+	font-size: 13px;
+}
+.text__h3{
+	font-size: 37px;
+	color: #FF9900;
+	margin-top: 5rem;
+}
+.text__h1{
+	font-size: 50px;
+	color: #F6F3EE;
+	padding-top: 0px;
+}
+.articulos{
+	margin: 5rem 1rem 0rem 1rem;
+}
+.articulos__img{
+	width: 225px;
+	height: 230px;
+}
+.articulos__nombre{
+	font-size: 21px;
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 2px
+}
+.articulos__clasificacion{
+	font-size: 15px;
+	color: grey;
+	font-family: 'Inter', sans-serif;
+	margin: 0px;
+}
+.articulos__precio{
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	margin-top: 8px;
+}
+.tittle__productos{
+	background-image: url("../Assets/Img/backgroundproductos.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 550px;
+	padding-bottom: 2rem;
+}
+@media only screen and (max-width: 768px){
+	.text__h3{
+		font-size: 25px;
+		color: #FF9900;
+		padding-bottom: 0px;
+	}
+	.text__h1{
+		font-size: 35px;
+		color: #F6F3EE;
+		padding-bottom: 2rem;
+	}
+	.card__image{
+		width: 320px;
+	}
+	.text__description{
+		width: 291px;
+	}
+	.main__iso{
+		width: 320px;
+	}
+	.index__main{
+		background-size: 200% 870px;
+		padding-bottom: 0px;
+	}
+	.text__tittle{
+		letter-spacing: 6.5px;
+		font-size: 47px;
+	}
+	.button__categorías{
+		margin-top: 2rem;
+	}
+	.tittle__productos{
+	background-size: 200% 300px;
+	padding-bottom: 0px;
+	}
+
+}
