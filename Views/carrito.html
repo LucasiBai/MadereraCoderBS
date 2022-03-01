@@ -52,20 +52,34 @@
 	</header> 
 	<main class="row">
 		<div>
-			<h1 class="text__tittle">Carrito</h1>
+			<h1 class="text__tittle--carrito col-12 font-weight-bold">Carrito</h1>
 		</div>
-		<section>
-			<article>
-				<img src="../Assets/Img/mueble5.jpg" alt="escritoriogamer" class="carrito__img carrito__item">
-				<h4 class="text__tittle carrito__item">Escritorio Gamer</h4>
-				<h4 class="text__tittle carrito__item">$75.000</h4>
-				<select class="button button__ordenarpor">
-					<option value="1" >1</option>
-					<option value="2" >2</option>
-					<option value="3" >3</option>
-					<option value="4" >4</option>
-					<option value="5" >5</option>
-				</select>
+		<section class="col-12">
+			<article class="d-flex flex-column flex-md-row flex-lg-row justify-content-md-center justify-content-lg-center pb-5 mb-5">	
+				<div class="d-flex justify-content-center align-items-center p-3">
+					<img src="../Assets/Img/mueble5.jpg" alt="escritoriogamer" class="carrito__img carrito__item rounded-lg">
+				</div>
+				<div class="d-flex flex-row justify-content-between flex-md-column flex-lg-column p-3">
+					<h4 class="text__carrito carrito__item font-weight-bold">Producto:</h4>
+					<h4 class="text__carrito carrito__item">Escritorio Gamer</h4>
+				</div>
+				<div class="d-flex flex-row justify-content-between flex-md-column flex-lg-column p-3">
+					<h4 class="text__carrito carrito__item font-weight-bold">Precio:</h4>
+					<h4 class="text__carrito carrito__item">$75.000</h4>
+				</div>
+				<div class="d-flex flex-row justify-content-between align-items-center  flex-md-column flex-lg-columnp-3">
+					<h4 class="text__carrito carrito__item carrito__item--cantidad font-weight-bold">Cantidad:</h4>
+					<select class="button select_size button__ordenarpor carrito__item--cantidad">
+						<option value="1" >1</option>
+						<option value="2" >2</option>
+						<option value="3" >3</option>
+						<option value="4" >4</option>
+						<option value="5" >5</option>
+					</select>
+				</div>
+				<div class="d-flex justify-content-start mt-3">
+					<button class="button button__size mb-5" type="button" onclick="window.open('productos.html')">Finalizar Compra</button>
+				</div>
 			</article>
 		</section>
 	</main>
@@ -78,13 +92,13 @@
 			<!-- Métodos de contacto -->
 			<h4 class="foo__font">Redes Sociales</h4>
 			<ul class="foo__redes--items">
-				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
-				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
-				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
+				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
+				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
+				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
 			</ul>
 		</div>
 		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
-			<h4><a href="../Views/contacto.html" class="foo__font">Contacto</a></h4>
+			<h4><a href="../Views/contacto.html" class="foo__font text-decoration-none">Contacto</a></h4>
 			<ul class="foo__redes--items">
 				<li class="foo__font mt-3"><img src="https://icongr.am/entypo/phone.svg?size=17&color=f6f3ee" alt="phoneicon"> +54 1234567</li>
 			</ul>

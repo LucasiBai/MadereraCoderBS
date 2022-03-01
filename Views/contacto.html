@@ -18,7 +18,7 @@
 	<!-- Link a Bootstrap Css-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
-<body class="container-fluid h-100 d-flex flex-column">
+<body class="container-fluid h-100">
 	<header class="row h-15">
 		<!-- Barra de navegación -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-secondary col-12 col-lg-12 nav__flex">
@@ -51,18 +51,18 @@
 		</nav>
 	</header> 
 
-	<main class="container__contacto">
-		<div class="tittle__contacto">
+	<main class="row">
+		<div class="tittle__contacto col-12 d-flex flex-column justify-content-end align-items-center">
 			<h3 class="text__h3">Mantenenos en</h3>
 			<h1 class="text__h1">Contacto</h1>
 		</div>
-		<div class="sectiona__contacto">
+		<div class="sectiona__contacto col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center mt-5 mb-2 mb-lg-5 mb-md-5">
 			<h3 class="contacto__subtittlea">No tengas miedo de</h3>
 			<h2 class="contacto__subtittleb">Enviarnos tu consulta</h2>
 			<img src="../Assets/Img/Nosotros.jpg" class="contacto__img">	
 		</div>
-		<section class="formularios">
-			<form class="formulariosa" action="#">
+		<section class="formularios col-12 col-lg-6 col-md-6 d-flex flex-column justify-content-center mt-5 mb-5">
+			<form class="formulariosa d-flex flex-column" action="#">
 				<input class="contform" type="text" name="nombre_completo" placeholder="Nombre">
 				<input class="contform" type="email" name="mail" placeholder="Email">
 				<input class="contform" type="text" name="teléfono" placeholder="Teléfono">
@@ -81,13 +81,13 @@
 			<!-- Métodos de contacto -->
 			<h4 class="foo__font">Redes Sociales</h4>
 			<ul class="foo__redes--items">
-				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
-				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
-				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
+				<li class="mt-4 mb-3"><a href="https://www.facebook.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/facebook.svg?size=17&color=f6f3ee" alt="facebookicon"> Facebook</a></li>
+				<li class="mb-3"><a href="https://www.instagram.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/instagram.svg?size=17&color=f6f3ee" alt="instagramicon"> Instagram</a></li>
+				<li class="mb-3"><a href="https://www.youtube.com/" target="_blank" class="foo__font text-decoration-none"><img src="https://icongr.am/entypo/youtube.svg?size=17&color=f6f3ee" alt="youtubeicon"> Youtube</a></li>
 			</ul>
 		</div>
 		<div class="col-12 col-lg-4 col-md-4 mt-5 mb-5">
-			<h4><a href="../Views/contacto.html" class="foo__font">Contacto</a></h4>
+			<h4><a href="../Views/contacto.html" class="foo__font text-decoration-none">Contacto</a></h4>
 			<ul class="foo__redes--items">
 				<li class="foo__font mt-3"><img src="https://icongr.am/entypo/phone.svg?size=17&color=f6f3ee" alt="phoneicon"> +54 1234567</li>
 			</ul>
